@@ -1,0 +1,49 @@
+{
+	"expo": {
+		"name": "Atalaya",
+		"slug": "Atalaya",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icons/icon.png",
+		"splash": {
+			"image": "./assets/icons/icon.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.logitransatalaya.atalaya",
+			"buildNumber": "1.0.0",
+			"config": {
+				"googleMapsApiKey": "AIzaSyAXxgheBUHJIG8JyVu-hO2hKBXnVztwoFo"
+			}
+		},
+		"android": {
+			"package": "com.logitransatalaya.atalaya",
+			"versionCode": 1,
+			"icon": "./assets/icons/icon.png",
+			"permissions": [
+				"ACCESS_BACKGROUND_LOCATION",
+				"ACCESS_COARSE_LOCATION",
+				"ACCESS_FINE_LOCATION"
+			],
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/icons/icon.png",
+				"backgroundColor": "#FFFFFF"
+			},
+			"config": {
+				"googleMaps": {
+					"apiKey": "AIzaSyAXxgheBUHJIG8JyVu-hO2hKBXnVztwoFo"
+				}
+			},
+			"softwareKeyboardLayoutMode": "pan"
+		},
+		"web": {
+			"favicon": "./assets/icons/icon.png"
+		}
+	}
+}
